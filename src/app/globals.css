@@ -1,4 +1,36 @@
 @tailwind base;
+
+html {
+  scroll-behavior: smooth;
+  word-break: break-word;
+}
+
+::selection {
+  color: hsl(var(--background));
+  background: hsl(var(--accent));
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--background)) hsl(var(--foreground));
+}
+
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--primary));
+  border-radius: 10px;
+  border: 3px solid hsl(var(--background));
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -16,4 +48,79 @@
   --primary: #ACF8CD;
   --secondary: #043633;
   --accent: #3AD1C5;
+}
+ 
+@layer base {
+  :root {
+    --background: 155 100% 99%;
+    --foreground: 180 33% 2%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+ 
+    --primary: 146 72% 62%;
+    --primary-foreground: var(--foreground);
+ 
+    --secondary: 174 100% 94%;
+    --secondary-foreground: var(--background);
+ 
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+ 
+    --accent: 164 60% 39%;
+    --accent-foreground: var(--foreground);
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 175, 62%, 52%;
+    --input: 176 86% 11%;
+    --ring: 175, 62%, 52%;
+ 
+    --radius: 0.8rem;
+  }
+ 
+  .dark {
+    --background: 180 33% 2%;
+    --foreground: 155 100% 99%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+ 
+    --primary: 146 84% 82%;
+    --primary-foreground: var(--background);
+ 
+    --secondary: 176 86% 11%;
+    --secondary-foreground: var(--background);
+ 
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+ 
+    --accent: 175, 62%, 52%;
+    --accent-foreground: var(--foreground);
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 175, 62%, 52%;
+    --input: 176 86% 11%;
+    --ring: 175, 62%, 52%;
+ 
+    --radius: 0.8rem;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }
