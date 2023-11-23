@@ -12,7 +12,7 @@ html {
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: hsl(var(--background)) hsl(var(--foreground));
+  scrollbar-color: transparent hsl(var(--foreground));
 }
 
 
@@ -21,13 +21,13 @@ html {
 }
 
 *::-webkit-scrollbar-track {
-  background: hsl(var(--background));
+  background: transparent;
   border-radius: 5px;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: hsl(var(--primary));
-  border-radius: 10px;
+  background-color: hsl(var(--accent));
+  border-radius: 14px;
   border: 3px solid hsl(var(--background));
 }
 
@@ -55,8 +55,8 @@ html {
     --background: 155 100% 99%;
     --foreground: 180 33% 2%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
+    --card: var(--secondary);
+    --card-foreground: var(--foreground);
  
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;
@@ -87,8 +87,8 @@ html {
     --background: 180 33% 2%;
     --foreground: 155 100% 99%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
+    --card: var(--secondary);
+    --card-foreground: var(--foreground);
  
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;

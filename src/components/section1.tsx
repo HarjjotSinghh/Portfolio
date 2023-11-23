@@ -10,13 +10,15 @@ import { DoubleArrowDownIcon } from "@radix-ui/react-icons"
 import Image from 'next/image';
 import section1Image from "@/../public/portfolio-website-background.png"
 import section1ImageLight from "@/../public/portfolio-website-background-light.png"
+import Link from 'next/link';
 
 export default function Section1() {
     const [hasMounted, setHasMounted] = useState(false);
+    const [hidden, setHidden] = useState(false);
     useEffect(() => setHasMounted(true), []);
     if (!hasMounted) {
         return (
-            <section className='flex justify-center items-center h-screen'>
+            <section className='flex justify-center items-center h-screen' id='main'>
                 <div className=''>
                 <h1 className="text-lg font-thin tracking-tighter sm:text-xl md:text-2xl lg:text-3xl">
                     Hey there,
@@ -29,7 +31,7 @@ export default function Section1() {
         )
     }
     return (
-    <section className='flex justify-center items-center h-screen antialiased'>
+    <section className='flex justify-center items-center h-screen antialiased' id='main'>
             <div className='absolute w-full h-full -z-50 select-none'>
                 {/* <Image src={section1Image} alt='Section 1' className='w-full h-full visbile hue-rotate-180 contrast-100 invert dark:hue-rotate-0 dark:invert-0'></Image> */}
                 <Image src={section1ImageLight} alt='Section 1' className='w-full h-full dark:contrast-[0.9] contrast-125 dark:invert dark:hue-rotate-[190deg] -hue-rotate-[20deg] object-cover'></Image>
@@ -69,9 +71,14 @@ export default function Section1() {
                 </Fade>
                 
             </div>
-            <button className='hover:bg-primary transition-all ease-in-out duration-700 rounded-full bg-accent p-2 absolute bottom-4 animate-bounce'>
-                <DoubleArrowDownIcon className='w-6 h-6 text-background'/>
-            </button>
+            <Link href='#about-me' className='absolute bottom-4 animate-bounce' onClick={() => {setHidden(!hidden)}}>
+                {!hidden && (
+                    <button className='hover:bg-primary transition-all ease-in-out duration-700 rounded-full bg-accent p-2 '>
+                        <DoubleArrowDownIcon className='w-6 h-6 text-background'/>
+                    </button>
+                )}
+            </Link>
+
     </section>
   )
 }
