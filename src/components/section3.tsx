@@ -36,7 +36,7 @@ export default function Section3() {
                     <Card className='bg-background/20 backdrop-blur-2xl border-secondary hover:border-accent hover:bg-background/50 transition-all ease-in-out duration-300 shadow-[0px_15px_50px] shadow-secondary/70 hover:shadow-primary/20'>
                         <CardHeader>
                             <CardTitle className='xl:text-4xl text-2xl'>
-                                <Link rel='noopener' target='_blank' href={"https://eventopia.vercel.app"} className='underline-offset-auto underline decoration-primary decoration-2 hover:decoration-accent transition-all duration-300 ease-in-out inline-flex items-center gap-2 lg:gap-3'>
+                                <Link rel='noopener' target='_blank' href={"https://eventopia.vercel.app"} className='underline-offset-2 no-underline decoration-accent decoration-2 hover:underline transition-all duration-300 ease-in-out inline-flex items-center gap-2 lg:gap-3'>
                                     Eventopia <ExternalLinkIcon className='lg:w-6 lg:h-6 w-4 h-4 select-none' />
                                 </Link>
                             </CardTitle>
@@ -60,7 +60,7 @@ export default function Section3() {
                     <Card className='bg-background/20 backdrop-blur-2xl border-secondary hover:border-accent hover:bg-background/50 transition-all ease-in-out duration-300 shadow-[0px_15px_50px] shadow-secondary/70 hover:shadow-primary/20'>
                         <CardHeader>
                             <CardTitle className='xl:text-4xl text-2xl'>
-                                <Link rel='noopener' target='_blank' href={"https://topper-hq.vercel.app"} className='underline-offset-auto underline decoration-primary decoration-2 hover:decoration-accent transition-all duration-300 ease-in-out inline-flex items-center gap-2 lg:gap-3'>
+                                <Link rel='noopener' target='_blank' href={"https://topper-hq.vercel.app"} className='underline-offset-2 no-underline decoration-accent decoration-2 hover:underline transition-all duration-300 ease-in-out inline-flex items-center gap-2 lg:gap-3'>
                                     TopperHQ <ExternalLinkIcon className='lg:w-6 lg:h-6 w-4 h-4 select-none' />
                                 </Link>
                             </CardTitle>
@@ -86,7 +86,7 @@ export default function Section3() {
         </div>
         <div className='absolute lg:min-w-screen lg:h-auto min-h-screen w-full select-none overflow-hidden -z-30'>
             {/* <Image src={section1Image} alt='Section 1' className='w-full h-full visbile hue-rotate-180 contrast-100 invert dark:hue-rotate-0 dark:invert-0'></Image> */}
-            <Image src={projectsSectionImage} alt='Projects Section' className='lg:w-screen lg:h-auto h-screen w-full object-cover invert hue-rotate-[160deg] dark:invert-0 dark:hue-rotate-[20deg] contrast-150'></Image>
+            <Image src={projectsSectionImage} alt='Projects Section' className='lg:w-screen lg:h-auto h-screen w-full object-cover invert hue-rotate-[220deg] dark:invert-0 dark:hue-rotate-[20deg] contrast-200'></Image>
             {/* <div className="absolute inset-0 lg:w-screen lg:h-auto h-screen w-full bg-gradient-to-b from-background via-transparent to-background" style={{opacity:1}}></div> */}
             <div className="absolute inset-0 lg:w-screen lg:h-auto h-screen w-full bg-gradient-to-b from-background via-transparent
              to-background from-25% via-50% to-75%" style={{opacity:1}}></div>

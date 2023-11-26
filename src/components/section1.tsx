@@ -34,9 +34,9 @@ export default function Section1() {
     <section className='flex justify-center items-center h-screen antialiased' id='main'>
             <div className='absolute w-full h-full -z-50 select-none'>
                 {/* <Image src={section1Image} alt='Section 1' className='w-full h-full visbile hue-rotate-180 contrast-100 invert dark:hue-rotate-0 dark:invert-0'></Image> */}
-                <Image src={section1ImageLight} alt='Section 1' className='w-full h-full dark:contrast-[0.9] contrast-125 dark:invert dark:hue-rotate-[190deg] -hue-rotate-[20deg] object-cover'></Image>
-                <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-foreground to-background mix-blend-overlay" style={{opacity:0.6}}></div>
-                <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-transparent to-background" style={{opacity:0.5}}></div>
+                <Image src={section1ImageLight} alt='Section 1' className='w-full h-full dark:contrast-[0.9] contrast-125 dark:invert dark:hue-rotate-[190deg] hue-rotate-[10deg] object-cover'></Image>
+                <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-transparent via-transparent to-background" style={{opacity:1}}></div>
+                {/* <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-transparent via-transparent to-background" style={{opacity:0.5}}></div> */}
             </div>
             <div className='w-fit break-words'>
                 <Fade duration={FADE_IN_ANIMATION_DURATION} triggerOnce>
