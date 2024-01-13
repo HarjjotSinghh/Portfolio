@@ -36,7 +36,6 @@ export default function Section1() {
                 {/* <Image src={section1Image} alt='Section 1' className='w-full h-full visbile hue-rotate-180 contrast-100 invert dark:hue-rotate-0 dark:invert-0'></Image> */}
                 <Image src={section1ImageLight} alt='Section 1' className='w-full h-full dark:contrast-[0.9] contrast-125 dark:invert dark:hue-rotate-[190deg] hue-rotate-[10deg] object-cover'></Image>
                 <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-transparent via-transparent to-background" style={{opacity:1}}></div>
-                {/* <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-transparent via-transparent to-background" style={{opacity:0.5}}></div> */}
             </div>
             <div className='w-fit break-words'>
                 <Fade duration={FADE_IN_ANIMATION_DURATION} triggerOnce>

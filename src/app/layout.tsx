@@ -9,6 +9,7 @@ import { Providers } from './providers';
 import { cn } from '@/lib/utils';
 import SideNavbar from '@/components/side-navbar';
 import ThemeSwitcher from '@/components/ThemeSwitcher';
+import Footer from '@/components/footer';
 
 export const metadata: Metadata = {
   title: 'HarjjotSinghh',
@@ -30,6 +31,7 @@ export default function RootLayout({
             </div>
             <SideNavbar></SideNavbar>
             {children}
+            <Footer/>
           </Providers>
         </body>
       </html>
