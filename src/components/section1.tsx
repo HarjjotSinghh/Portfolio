@@ -32,11 +32,11 @@ export default function Section1() {
     }
     return (
     <section className='flex justify-center items-center h-screen antialiased' id='main'>
-            <div className='absolute w-full h-full -z-50 select-none'>
+            <Fade duration={FADE_IN_ANIMATION_DURATION+1000} delay={FADE_IN_ANIMATION_DELAY+1000} className='absolute w-full h-full -z-50 select-none' triggerOnce>
                 {/* <Image src={section1Image} alt='Section 1' className='w-full h-full visbile hue-rotate-180 contrast-100 invert dark:hue-rotate-0 dark:invert-0'></Image> */}
-                <Image src={section1ImageLight} alt='Section 1' className='w-full h-full dark:contrast-[0.9] contrast-125 dark:invert dark:hue-rotate-[190deg] hue-rotate-[10deg] object-cover'></Image>
+                <Image src={section1ImageLight} alt='Section 1' className='w-full h-full dark:contrast-[0.9] contrast-125 dark:invert dark:hue-rotate-[190deg] hue-rotate-[40deg] object-cover'></Image>
                 <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-transparent via-transparent to-background" style={{opacity:1}}></div>
-            </div>
+            </Fade>
             <div className='w-fit break-words'>
                 <Fade duration={FADE_IN_ANIMATION_DURATION} triggerOnce>
                     <div className="flex flex-row lg:gap-2 gap-1 text-lg font-thin tracking-tighter sm:text-xl md:text-2xl lg:text-3xl">
@@ -70,13 +70,13 @@ export default function Section1() {
                 </Fade>
                 
             </div>
-            <Link href='#about-me' className='absolute bottom-4 animate-bounce' onClick={() => {setHidden(!hidden)}}>
+            {/* <Link href='#about-me' className='absolute bottom-4 animate-bounce' onClick={() => {setHidden(!hidden)}}>
                 {!hidden && (
                     <button className='hover:bg-primary transition-all ease-in-out duration-700 rounded-full bg-accent p-2 '>
                         <DoubleArrowDownIcon className='w-6 h-6 text-background'/>
                     </button>
                 )}
-            </Link>
+            </Link> */}
 
     </section>
   )

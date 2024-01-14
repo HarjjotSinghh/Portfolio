@@ -7,6 +7,11 @@ import contactSectionImage from "@/../public/portfolio-website-background-contac
 import Image from "next/image";
 import { Button } from "./ui/button";
 import { FiDownload } from "react-icons/fi";
+import { IoIosMail } from "react-icons/io";
+import { FaDiscord, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { IoLogoGithub } from "react-icons/io";
+import { FaBehanceSquare } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 
 export default function Section5() {
   return (
@@ -29,18 +34,108 @@ export default function Section5() {
           triggerOnce
           className="mt-6 z-10"
         >
-          <div className="flex justify-start lg:items-start items-center lg:flex-col flex-col gap-8 w-full">
-            
-            <p className="leading-7 xl:text-lg text-base lg:w-3/5 ">
-            Ready to connect? Feel free to reach out via the provided contact information. Whether you have a project in mind, want to discuss potential collaborations, or just want to say hello, I{"'"}m all ears. I look forward to hearing from you soon!
+          <div className="flex justify-start lg:items-start items-start lg:flex-col flex-col gap-8 w-full">
+            <p className="leading-7 xl:text-lg text-base lg:w-[60%] ">
+              Ready to connect? Feel free to reach out via the provided contact
+              information.
+              <br /> Whether you have a project in mind, want to discuss
+              potential collaborations, or just want to say hello, I{"'"}m all
+              ears. I look forward to hearing from you soon!
             </p>
-            <a href="/Harjot_Singh_Resume.pdf" download={"Harjot_Singh_Resume"}>
-                <Button className="text-xl py-6 px-8" variant="outline">
-                Download
-                <FiDownload className="ml-2 h-6 w-6 " />
-                </Button>
-            </a>
-            
+            <div className="flex flex-row flex-wrap justify-start items-start lg:w-3/5 w-full lg:gap-8 gap-4 ">
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+                <IoIosMail className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
+
+                <a
+                  href="mailto:harjjotsinghh@gmail.com"
+                  target="_blank"
+                  rel={"noopener norefferer"}
+                >
+                  <p className="lg:text-lg text-base text-foreground dark:hover:text-accent hover:text-primary transition-all ease-in-out duration-300">
+                    harjjotsinghh@gmail.com
+                  </p>
+                </a>
+              </div>
+              
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+                <IoLogoGithub className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
+
+                <a
+                  href="https://github.com/HarjjotSinghh"
+                  target="_blank"
+                  rel={"noopener norefferer"}
+                >
+                  <p className="lg:text-lg text-base text-foreground dark:hover:text-accent hover:text-primary transition-all ease-in-out duration-300">
+                    @HarjjotSinghh
+                  </p>
+                </a>
+              </div>
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+                <FaLinkedin className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
+
+                <a
+                  href="https://linkedin.com/in/HarjjotSinghh"
+                  target="_blank"
+                  rel={"noopener norefferer"}
+                >
+                  <p className="lg:text-lg text-base text-foreground dark:hover:text-accent hover:text-primary transition-all ease-in-out duration-300">
+                    @HarjjotSinghh
+                  </p>
+                </a>
+              </div>
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+                <FaXTwitter className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
+
+                <a
+                  href="https://x.com/HarjjotSinghh"
+                  target="_blank"
+                  rel={"noopener norefferer"}
+                >
+                  <p className="lg:text-lg text-base text-foreground dark:hover:text-accent hover:text-primary transition-all ease-in-out duration-300">
+                    @HarjjotSinghh
+                  </p>
+                </a>
+              </div>
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+                <FaBehanceSquare className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
+
+                <a
+                  href="https://behance.net/harjjot"
+                  target="_blank"
+                  rel={"noopener norefferer"}
+                >
+                  <p className="lg:text-lg text-base text-foreground dark:hover:text-accent hover:text-primary transition-all ease-in-out duration-300">
+                    @harjjot
+                  </p>
+                </a>
+              </div>
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+                <AiFillInstagram className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
+
+                <a
+                  href="https://instagram.com/harjotzlife"
+                  target="_blank"
+                  rel={"noopener norefferer"}
+                >
+                  <p className="lg:text-lg text-base text-foreground dark:hover:text-accent hover:text-primary transition-all ease-in-out duration-300">
+                    @harjotzlife
+                  </p>
+                </a>
+              </div>
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+                <FaDiscord className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
+
+                <a
+                  href="https://discord.com/users/826266498862415902"
+                  target="_blank"
+                  rel={"noopener norefferer"}
+                >
+                  <p className="lg:text-lg text-base text-foreground dark:hover:text-accent hover:text-primary transition-all ease-in-out duration-300">
+                    @h4r.
+                  </p>
+                </a>
+              </div>
+            </div>
           </div>
         </Fade>
       </div>

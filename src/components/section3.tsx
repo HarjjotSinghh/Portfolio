@@ -56,8 +56,8 @@ export default function Section3() {
           </h1>
         </Fade>
         <Fade duration={FADE_IN_ANIMATION_DURATION} triggerOnce>
-          <div className="pt-16 z-10 flex flex-row flex-wrap items-start justify-start gap-16 [&_div]:max-w-[480px]">
-          <Card className="bg-background/20 backdrop-blur-2xl dark:border-secondary border-accent dark:hover:border-accent hover:border-primary dark:hover:bg-background/50 transition-all ease-in-out duration-300 dark:shadow-[0px_15px_50px] dark:shadow-secondary/70 dark:hover:shadow-primary/20">
+          <div className="pt-16 z-10 flex flex-row flex-wrap items-start justify-start gap-16 xl:[&_div]:max-w-[480px] lg:[&_div]:max-w-full">
+            <Card className="bg-background/20 backdrop-blur-2xl dark:border-accent/60 border-2 border-primary/50 hover:border-primary dark:hover:border-accent hover:shadow-primary/40 dark:hover:bg-background/50 transition-all ease-in-out duration-300 dark:shadow-[0px_15px_50px] shadow-[0px_15px_50px] shadow-primary/20 dark:shadow-secondary/70 dark:hover:shadow-primary/20">
               <CardHeader>
                 <CardTitle className="xl:text-4xl text-2xl">
                   <Link
@@ -141,7 +141,7 @@ export default function Section3() {
                 </div>
               </CardFooter>
             </Card>
-            <Card className="bg-background/20 backdrop-blur-2xl dark:border-secondary border-accent dark:hover:border-accent hover:border-primary dark:hover:bg-background/50 transition-all ease-in-out duration-300 dark:shadow-[0px_15px_50px] dark:shadow-secondary/70 dark:hover:shadow-primary/20">
+            <Card className="bg-background/20 backdrop-blur-2xl dark:border-accent/60 border-2 border-primary/50 hover:border-primary dark:hover:border-accent hover:shadow-primary/40 dark:hover:bg-background/50 transition-all ease-in-out duration-300 dark:shadow-[0px_15px_50px] shadow-[0px_15px_50px] shadow-primary/20 dark:shadow-secondary/70 dark:hover:shadow-primary/20">
               <CardHeader>
                 <CardTitle className="xl:text-4xl text-2xl">
                   <Link
@@ -163,7 +163,8 @@ export default function Section3() {
                   draggable={false}
                 ></Image>
                 <CardDescription className="text-foreground/80 w-full mt-4 xl:text-lg">
-                  Brainchant is a one stop solution for all GGSIPU university students providing useful resources and study material.
+                  Brainchant is a one stop solution for all GGSIPU university
+                  students providing useful resources and study material.
                 </CardDescription>
               </CardContent>
               <CardFooter>
@@ -215,10 +216,10 @@ export default function Section3() {
                 </div>
               </CardFooter>
             </Card>
-            <Card className="bg-background/20 backdrop-blur-2xl dark:border-secondary border-accent dark:hover:border-accent hover:border-primary dark:hover:bg-background/50 transition-all ease-in-out duration-300 dark:shadow-[0px_15px_50px] dark:shadow-secondary/70 dark:hover:shadow-primary/20">
+            <Card className="bg-background/20 backdrop-blur-2xl dark:border-accent/60 border-2 border-primary/50 hover:border-primary dark:hover:border-accent hover:shadow-primary/40 dark:hover:bg-background/50 transition-all ease-in-out duration-300 dark:shadow-[0px_15px_50px] shadow-[0px_15px_50px] shadow-primary/20 dark:shadow-secondary/70 dark:hover:shadow-primary/20">
               <CardHeader>
                 <CardTitle className="xl:text-4xl text-2xl">
-                <Link
+                  <Link
                     rel="noopener"
                     target="_blank"
                     href={"https://topper-hq.vercel.app"}
@@ -237,9 +238,8 @@ export default function Section3() {
                   draggable={false}
                 ></Image>
                 <CardDescription className="text-foreground/80 w-full mt-4 xl:text-lg">
-                A website which displays all important QnA from
-                  each chapter of every subject in a summarised and easy to
-                  remember format.
+                  A website which displays all important QnA from each chapter
+                  of every subject in a summarised and easy to remember format.
                 </CardDescription>
               </CardContent>
               <CardFooter>
@@ -266,7 +266,9 @@ export default function Section3() {
                             <SiJinja className="text-foreground dark:hover:text-primary hover:text-accent lg:w-10 lg:h-10 w-8 h-8 hover:scale-110 transition-all duration-300 ease-in-out" />
                           </TooltipTrigger>
                           <TooltipContent>
-                            <p className="lg:text-base text-sm">Jinja Templates</p>
+                            <p className="lg:text-base text-sm">
+                              Jinja Templates
+                            </p>
                           </TooltipContent>
                         </Tooltip>
                         <Tooltip>
@@ -285,7 +287,7 @@ export default function Section3() {
                             <p className="lg:text-base text-sm">CSS</p>
                           </TooltipContent>
                         </Tooltip>
-                        
+
                         <Tooltip>
                           <TooltipTrigger>
                             <BiMath className="text-foreground hover:dark:text-primary lg hover:text-accent:w-10 lg:h-10 w-8 h-8 hover:scale-110 transition-all duration-300 ease-in-out" />
@@ -300,7 +302,7 @@ export default function Section3() {
                 </div>
               </CardFooter>
             </Card>
-            <Card className="bg-background/20 backdrop-blur-2xl dark:border-secondary border-accent dark:hover:border-accent hover:border-primary dark:hover:bg-background/50 transition-all ease-in-out duration-300 dark:shadow-[0px_15px_50px] dark:shadow-secondary/70 dark:hover:shadow-primary/20">
+            <Card className="bg-background/20 backdrop-blur-2xl dark:border-accent/60 border-2 border-primary/50 hover:border-primary dark:hover:border-accent hover:shadow-primary/40 dark:hover:bg-background/50 transition-all ease-in-out duration-300 dark:shadow-[0px_15px_50px] shadow-[0px_15px_50px] shadow-primary/20 dark:shadow-secondary/70 dark:hover:shadow-primary/20">
               <CardHeader>
                 <CardTitle className="xl:text-4xl text-2xl">
                   <Link
@@ -322,7 +324,8 @@ export default function Section3() {
                   draggable={false}
                 ></Image>
                 <CardDescription className="text-foreground/80 w-full mt-4 xl:text-lg">
-                  A simple new year countdown website which displays the time remaining until the next year arrives.
+                  A simple new year countdown website which displays the time
+                  remaining until the next year arrives.
                 </CardDescription>
               </CardContent>
               <CardFooter>
