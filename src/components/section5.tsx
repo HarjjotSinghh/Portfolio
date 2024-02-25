@@ -43,7 +43,7 @@ export default function Section5() {
               ears. I look forward to hearing from you soon!
             </p>
             <div className="flex flex-row flex-wrap justify-start items-start lg:w-3/5 w-full lg:gap-8 gap-4 ">
-              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/20 dark:hover:shadow-accent/50 hover:shadow-primary/40 transition-all duration-300 ease-in-out">
                 <IoIosMail className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
 
                 <a
@@ -57,7 +57,7 @@ export default function Section5() {
                 </a>
               </div>
               
-              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/20 dark:hover:shadow-accent/50 hover:shadow-primary/40 transition-all duration-300 ease-in-out">
                 <IoLogoGithub className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
 
                 <a
@@ -70,7 +70,7 @@ export default function Section5() {
                   </p>
                 </a>
               </div>
-              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/20 dark:hover:shadow-accent/50 hover:shadow-primary/40 transition-all duration-300 ease-in-out">
                 <FaLinkedin className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
 
                 <a
@@ -83,7 +83,7 @@ export default function Section5() {
                   </p>
                 </a>
               </div>
-              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/20 dark:hover:shadow-accent/50 hover:shadow-primary/40 transition-all duration-300 ease-in-out">
                 <FaXTwitter className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
 
                 <a
@@ -96,7 +96,7 @@ export default function Section5() {
                   </p>
                 </a>
               </div>
-              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/20 dark:hover:shadow-accent/50 hover:shadow-primary/40 transition-all duration-300 ease-in-out">
                 <FaBehanceSquare className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
 
                 <a
@@ -109,7 +109,7 @@ export default function Section5() {
                   </p>
                 </a>
               </div>
-              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/20 dark:hover:shadow-accent/50 hover:shadow-primary/40 transition-all duration-300 ease-in-out">
                 <AiFillInstagram className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
 
                 <a
@@ -122,7 +122,7 @@ export default function Section5() {
                   </p>
                 </a>
               </div>
-              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/30 dark:hover:shadow-accent/80 hover:shadow-primary/50 transition-all duration-300 ease-in-out">
+              <div className="lg:px-6 lg:py-3 px-4 py-2 flex gap-2 justify-center items-center rounded-md border-2 dark:border-accent border-primary lg:shadow-[0px_0px_25px_var(--primary)] shadow-[0px_0px_15px] shadow-primary/20 dark:shadow-primary/20 dark:hover:shadow-accent/50 hover:shadow-primary/40 transition-all duration-300 ease-in-out">
                 <FaDiscord className="lg:w-10 lg:h-10 h-6 w-6 text-foreground" />
 
                 <a

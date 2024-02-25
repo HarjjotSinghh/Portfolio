@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -18,7 +18,7 @@
     "embla-carousel-react": "^8.0.0-rc19",
     "geist": "^1.1.0",
     "lottie-react": "^2.4.0",
-    "next": "14.0.2",
+    "next": "^14.1.1-canary.72",
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-awesome-reveal": "^4.2.7",

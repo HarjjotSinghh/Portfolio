@@ -33,7 +33,7 @@ export const ThemeSwitcher = () => {
   return (
     <Fade duration={FADE_IN_ANIMATION_DURATION} delay={FADE_IN_ANIMATION_DELAY} className='w-fit z-[10001]' triggerOnce>
       <div className='w-fit'>
-        <Button className='xl:px-6 xl:py-10 px-4 py-6 rounded-full shadow-[0px_10px_20px] dark:shadow-primary/40 shadow-primary/80' variant={"default"} onClick={toggleTheme}>
+        <Button className='xl:px-6 xl:py-10 px-4 py-6 rounded-full lg:scale-90 bg-background/20 border-2 dark:border-accent border-primary text-foreground' variant={"link"} onClick={toggleTheme}>
           {(theme === "dark") ? <MoonIcon className='xl:w-8 xl:h-8 w-4 h-4'/> : <SunIcon className='xl:w-8 xl:h-8 w-4 h-4'/>}
         </Button>
       </div>

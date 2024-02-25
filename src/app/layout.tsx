@@ -26,7 +26,7 @@ export default function RootLayout({
       <html lang="en" suppressHydrationWarning >
         <body className={cn(GeistSans.className)}>
           <Providers>
-            <div className='fixed xl:top-8 xl:left-8 lg:left-4 lg:top-4 bottom-4 right-4 w-fit h-fit z-[10001]'>
+            <div className='fixed lg:top-8 lg:left-8 right-4 top-4 w-fit h-fit z-[10001]'>
               <ThemeSwitcher></ThemeSwitcher>
             </div>
             <SideNavbar></SideNavbar>
