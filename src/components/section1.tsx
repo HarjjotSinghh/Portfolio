@@ -18,7 +18,7 @@ export default function Section1() {
     useEffect(() => setHasMounted(true), []);
     if (!hasMounted) {
         return (
-            <section className='flex justify-center items-center h-screen' id='main'>
+            <section className='flex justify-center items-center h-[100dvh]' id='main'>
                 <div className=''>
                 <h1 className="text-lg font-thin tracking-tighter sm:text-xl md:text-2xl lg:text-3xl">
                     Hey there,
