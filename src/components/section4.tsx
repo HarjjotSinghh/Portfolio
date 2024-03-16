@@ -34,7 +34,7 @@ export default function Section4() {
             <p className="leading-7 xl:text-lg text-base lg:w-3/5 ">
             Explore my career highlights and qualifications in my resume.<br/> Click the button below to download and discover my skills, experiences, and achievements. Let{"'"}s connect and explore potential collaborations!
             </p>
-            <a href="/Harjot_Singh_Resume.pdf" download={"Harjot_Singh_Resume"}>
+            <a href="/resume.pdf" download={"Harjot Singh Resume"}>
                 <Button className="text-xl py-6 px-8 border-2 dark:border-accent border-primary dark:hover:bg-transparent hover:bg-transparent dark:hover:text-foreground shadow-[0px_0px_20px] dark:hover:shadow-accent/60 shadow-secondary hover:shadow-primary/60 transition-all duration-300 ease-in-out" variant="outline">
                 Download
                 <FiDownload className="ml-2 h-6 w-6 " />

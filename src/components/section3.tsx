@@ -136,7 +136,9 @@ export default function Section3() {
                             <SiCloudflare className="text-foreground dark:hover:text-primary hover:text-accent lg:w-10 lg:h-10 w-8 h-8 hover:scale-110 transition-all duration-300 ease-in-out" />
                           </TooltipTrigger>
                           <TooltipContent>
-                            <p className="lg:text-base text-sm">Cloudflare R2</p>
+                            <p className="lg:text-base text-sm">
+                              Cloudflare R2
+                            </p>
                           </TooltipContent>
                         </Tooltip>
                       </TooltipProvider>
