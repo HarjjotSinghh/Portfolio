@@ -153,6 +153,81 @@ export default function Section3() {
                   <Link
                     rel="noopener"
                     target="_blank"
+                    href={"https://www.brainchant.in"}
+                    className="underline-offset-2 dark:hover:text-primary hover:text-accent decoration-accent decoration-2 transition-all duration-300 ease-in-out inline-flex items-center gap-2 lg:gap-3"
+                  >
+                    Brainchant{" "}
+                    <ExternalLinkIcon className="lg:w-6 lg:h-6 w-4 h-4 select-none" />
+                  </Link>
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <Image
+                  src={brainchantImage}
+                  alt=""
+                  className="object-contain select-none rounded-md"
+                  draggable={false}
+                ></Image>
+                <CardDescription className="text-foreground/80 w-full mt-4 xl:text-lg">
+                  Brainchant is a one stop solution for all GGSIPU university
+                  students providing useful resources and study material.
+                </CardDescription>
+              </CardContent>
+              <CardFooter>
+                <div className="flex justify-start items-start flex-row w-full">
+                  <div className="flex flex-col items-start justify-start gap-2 w-full">
+                    <h1 className="xl:text-3xl text-2xl font-semibold">
+                      Tech{" "}
+                      <span className="dark:text-primary text-foreground">
+                        Stack
+                      </span>
+                    </h1>
+                    <div className="flex flex-row flex-wrap lg:gap-6 gap-4 items-center mt-4">
+                      <TooltipProvider delayDuration={200}>
+                        <Tooltip>
+                          <TooltipTrigger>
+                            <RiSupabaseFill className="text-foreground hover:dark:text-primary lg hover:text-accent:w-10 lg:h-10 w-8 h-8 hover:scale-110 transition-all duration-300 ease-in-out" />
+                          </TooltipTrigger>
+                          <TooltipContent>
+                            <p className="lg:text-base text-sm">Supabase</p>
+                          </TooltipContent>
+                        </Tooltip>
+                        <Tooltip>
+                          <TooltipTrigger>
+                            <SiNextdotjs className="text-foreground dark:hover:text-primary hover:text-accent lg:w-10 lg:h-10 w-8 h-8 hover:scale-110 transition-all duration-300 ease-in-out" />
+                          </TooltipTrigger>
+                          <TooltipContent>
+                            <p className="lg:text-base text-sm">NextJS</p>
+                          </TooltipContent>
+                        </Tooltip>
+                        <Tooltip>
+                          <TooltipTrigger>
+                            <IoLogoNodejs className="text-foreground dark:hover:text-primary hover:text-accent lg:w-10 lg:h-10 w-8 h-8 hover:scale-110 transition-all duration-300 ease-in-out" />
+                          </TooltipTrigger>
+                          <TooltipContent>
+                            <p className="lg:text-base text-sm">Node.JS</p>
+                          </TooltipContent>
+                        </Tooltip>
+                        <Tooltip>
+                          <TooltipTrigger>
+                            <SiTailwindcss className="text-foreground dark:hover:text-primary hover:text-accent lg:w-10 lg:h-10 w-8 h-8 hover:scale-110 transition-all duration-300 ease-in-out" />
+                          </TooltipTrigger>
+                          <TooltipContent>
+                            <p className="lg:text-base text-sm">Tailwind CSS</p>
+                          </TooltipContent>
+                        </Tooltip>
+                      </TooltipProvider>
+                    </div>
+                  </div>
+                </div>
+              </CardFooter>
+            </Card>
+            <Card className="bg-background/20 backdrop-blur-2xl dark:border-accent/60 border-2 border-primary/50 hover:border-primary dark:hover:border-accent hover:shadow-primary/40 dark:hover:bg-background/50 transition-all ease-in-out duration-300 dark:shadow-[0px_15px_50px] shadow-[0px_15px_50px] shadow-primary/20 dark:shadow-secondary/70 dark:hover:shadow-primary/20">
+              <CardHeader>
+                <CardTitle className="xl:text-4xl text-2xl">
+                  <Link
+                    rel="noopener"
+                    target="_blank"
                     href={"https://credchain.vercel.app"}
                     className="underline-offset-2 dark:hover:text-primary hover:text-accent decoration-accent decoration-2 transition-all duration-300 ease-in-out inline-flex items-center gap-2 lg:gap-3"
                   >
@@ -350,81 +425,7 @@ export default function Section3() {
                 </div>
               </CardFooter>
             </Card>
-            <Card className="bg-background/20 backdrop-blur-2xl dark:border-accent/60 border-2 border-primary/50 hover:border-primary dark:hover:border-accent hover:shadow-primary/40 dark:hover:bg-background/50 transition-all ease-in-out duration-300 dark:shadow-[0px_15px_50px] shadow-[0px_15px_50px] shadow-primary/20 dark:shadow-secondary/70 dark:hover:shadow-primary/20">
-              <CardHeader>
-                <CardTitle className="xl:text-4xl text-2xl">
-                  <Link
-                    rel="noopener"
-                    target="_blank"
-                    href={"https://www.brainchant.in"}
-                    className="underline-offset-2 dark:hover:text-primary hover:text-accent decoration-accent decoration-2 transition-all duration-300 ease-in-out inline-flex items-center gap-2 lg:gap-3"
-                  >
-                    Brainchant{" "}
-                    <ExternalLinkIcon className="lg:w-6 lg:h-6 w-4 h-4 select-none" />
-                  </Link>
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <Image
-                  src={brainchantImage}
-                  alt=""
-                  className="object-contain select-none rounded-md"
-                  draggable={false}
-                ></Image>
-                <CardDescription className="text-foreground/80 w-full mt-4 xl:text-lg">
-                  Brainchant is a one stop solution for all GGSIPU university
-                  students providing useful resources and study material.
-                </CardDescription>
-              </CardContent>
-              <CardFooter>
-                <div className="flex justify-start items-start flex-row w-full">
-                  <div className="flex flex-col items-start justify-start gap-2 w-full">
-                    <h1 className="xl:text-3xl text-2xl font-semibold">
-                      Tech{" "}
-                      <span className="dark:text-primary text-foreground">
-                        Stack
-                      </span>
-                    </h1>
-                    <div className="flex flex-row flex-wrap lg:gap-6 gap-4 items-center mt-4">
-                      <TooltipProvider delayDuration={200}>
-                        <Tooltip>
-                          <TooltipTrigger>
-                            <RiSupabaseFill className="text-foreground hover:dark:text-primary lg hover:text-accent:w-10 lg:h-10 w-8 h-8 hover:scale-110 transition-all duration-300 ease-in-out" />
-                          </TooltipTrigger>
-                          <TooltipContent>
-                            <p className="lg:text-base text-sm">Supabase</p>
-                          </TooltipContent>
-                        </Tooltip>
-                        <Tooltip>
-                          <TooltipTrigger>
-                            <SiNextdotjs className="text-foreground dark:hover:text-primary hover:text-accent lg:w-10 lg:h-10 w-8 h-8 hover:scale-110 transition-all duration-300 ease-in-out" />
-                          </TooltipTrigger>
-                          <TooltipContent>
-                            <p className="lg:text-base text-sm">NextJS</p>
-                          </TooltipContent>
-                        </Tooltip>
-                        <Tooltip>
-                          <TooltipTrigger>
-                            <IoLogoNodejs className="text-foreground dark:hover:text-primary hover:text-accent lg:w-10 lg:h-10 w-8 h-8 hover:scale-110 transition-all duration-300 ease-in-out" />
-                          </TooltipTrigger>
-                          <TooltipContent>
-                            <p className="lg:text-base text-sm">Node.JS</p>
-                          </TooltipContent>
-                        </Tooltip>
-                        <Tooltip>
-                          <TooltipTrigger>
-                            <SiTailwindcss className="text-foreground dark:hover:text-primary hover:text-accent lg:w-10 lg:h-10 w-8 h-8 hover:scale-110 transition-all duration-300 ease-in-out" />
-                          </TooltipTrigger>
-                          <TooltipContent>
-                            <p className="lg:text-base text-sm">Tailwind CSS</p>
-                          </TooltipContent>
-                        </Tooltip>
-                      </TooltipProvider>
-                    </div>
-                  </div>
-                </div>
-              </CardFooter>
-            </Card>
+            
             <Card className="bg-background/20 backdrop-blur-2xl dark:border-accent/60 border-2 border-primary/50 hover:border-primary dark:hover:border-accent hover:shadow-primary/40 dark:hover:bg-background/50 transition-all ease-in-out duration-300 dark:shadow-[0px_15px_50px] shadow-[0px_15px_50px] shadow-primary/20 dark:shadow-secondary/70 dark:hover:shadow-primary/20">
               <CardHeader>
                 <CardTitle className="xl:text-4xl text-2xl">
