@@ -153,7 +153,7 @@ export default function Section3() {
                   <Link
                     rel="noopener"
                     target="_blank"
-                    href={"https://www.brainchant.harjot.pro"}
+                    href={"https://brainchant.harjot.pro/"}
                     className="underline-offset-2 dark:hover:text-primary hover:text-accent decoration-accent decoration-2 transition-all duration-300 ease-in-out inline-flex items-center gap-2 lg:gap-3"
                   >
                     Brainchant{" "}
